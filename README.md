@@ -29,4 +29,10 @@ Esta notación lo que permite es evaluar la eficiencia del algritmo cuando sus v
  - para la simplicafición este método solo evalua el comportamiento del termino de mayor tamaño
  
  ### Big o
- 
+ Es un lenguaje o metrica que utilizamos para describir la eficiencia de los algoritmos.
+ algunos ejemplos conocidos de la notaciones big o son:
+  - O (log N)
+  - O (N log N)
+  - O (N)
+  - O (N^2)
+  - O (2N)
