@@ -36,3 +36,11 @@ Esta notación lo que permite es evaluar la eficiencia del algritmo cuando sus v
   - O (N)
   - O (N^2)
   - O (2N)
+
+### Ley de la suma ej:
+
+'def f(n):
+  for i in range(n):
+   print (i)
+  
+  
