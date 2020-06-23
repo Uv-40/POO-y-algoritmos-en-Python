@@ -50,3 +50,4 @@ def f(n):
    
 # O(n) + O(n) = O(n+n) = O(2n) = O(n)
 ```
+Esto quiere decir que el algoritmo de suma crece en O de n o en funcion de n. En la última igualdas se remplaza 2n por n debido a que en terminos de Big O solo no interesa el termino que mas crece.
