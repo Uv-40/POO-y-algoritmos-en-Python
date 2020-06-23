@@ -44,5 +44,9 @@ Esta notación lo que permite es evaluar la eficiencia del algritmo cuando sus v
 def f(n):
   for i in range(n):
    print (i)
- 
+   
+  for i in range(n):
+   print (i)
+   
+# O(n) + O(n) = O(n+n) = O(2n) = O(n)
 ```
