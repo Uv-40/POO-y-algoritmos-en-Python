@@ -39,8 +39,10 @@ Esta notación lo que permite es evaluar la eficiencia del algritmo cuando sus v
 
 ### Ley de la suma ej:
 
-'def f(n):
+''' python
+
+def f(n):
   for i in range(n):
    print (i)
-  
-  
+ 
+ '''
