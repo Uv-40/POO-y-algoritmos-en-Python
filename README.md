@@ -14,3 +14,12 @@ Este repositorio se crea como resumen del curso POO y algoritmos en Python dicta
  - Encapsulación, getters and setters
  - Herencia
  - Polimorfismo
+ - Int. a la complejidad algoritmica
+ - Conteo abstracto de la operación
+ - Notación asintótica
+
+
+
+
+
+## Notación Asintótica
