@@ -232,3 +232,12 @@ if __name__ == '__main__':
 
 Y la complejidad algorítmica de este código sería:
 > exponencial Big O ( n ^ 2) dedifo a que se realiza un for loop para j que esta dento de un un for loop para i.
+
+La ejecución de código queda como sigue:
+
+```python
+PS C:\Users\Usuario\Desktop\Programacion\Python\POO y algoritmos con Python> python ordenamiento_burbuja.py
+De que tamaño será la lista? 10
+[59, 30, 69, 43, 49, 27, 29, 7, 52, 48]
+[7, 27, 29, 30, 43, 48, 49, 52, 59, 69]
+```
