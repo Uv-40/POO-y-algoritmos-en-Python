@@ -142,3 +142,43 @@ En cuanto a la complejidad algorítmica del programa anterior, este es de tipo l
  
  Complejidad: O(n)
 
+
+### Búsqueda Binaria
+
+Es el ejercicio que se usará a continuación sera una busqueda recursiva es decir que con cada iteración el tamaño de la lista se reduce a la mitad como se nota con el primer print statement al ejecutar el codigo.
+
+Para tener en cuenta: "este algorítmo asume que los datos estan ordenados" 
+
+> se aplica el principio de divide y conquista, el problema se divide en 2 en cada iteración
+
+```python
+
+import random
+
+def busqueda_binaria(lista, comienzo, final, objetivo):
+    print(f'buscando {objetivo} entre {lista[comienzo]} y {lista[final-1]}')
+    if comienzo > final:
+        return False
+    
+    medio = (comienzo + final) // 2
+
+    if lista[medio] == objetivo:
+        return True
+    elif lista[medio] < objetivo:
+        return busqueda_binaria(lista, medio + 1, final, objetivo)
+    else:
+        return busqueda_binaria(lista,comienzo, medio - 1, objetivo)
+
+
+if __name__ == '__main__':
+    tamaño_de_lista = int(input('De que tamaño es la lista? '))
+    objetivo = int(input('Que numero quieres encontrar? '))
+
+    lista = sorted([random.randint(0,100) for i in range(tamaño_de_lista)])
+
+    encontrado = busqueda_binaria(lista, 0, len(lista), objetivo)
+
+    print(lista)
+    print(f'El elemento {objetivo} {"esta" if encontrado else "no esta"} en la lista')
+
+```
