@@ -98,4 +98,4 @@ def fibonacci(n):
  - O(n^2), Polinomial - 
  - O(2^n), exponencial
  
-En cuanto al tipo de algorítmos que son usables para la solución de problemas, se excluye el uso de los algoritmos que tiene  un crecimiento polinomial, exponencial y factoriales debido al tiempo y la cantidad de recursos que usarian para resolver los problemas y en algunos casos estas soluciones para base de datos tan amplias como las de google tomaria demasiados años para utilizarlos.
+En cuanto al tipo de algorítmos que son usables para la solución de problemas, se excluye el uso de los algoritmos que tiene  un crecimiento polinomial, exponencial y factoriales debido al tiempo y la cantidad de recursos que usarian para resolver los problemas y en algunos casos estas soluciones para base de datos tan amplias como las de Google tomaria demasiados años para utilizarlos debido a la cantidad de pasos que debe hacer el algoritmo.
