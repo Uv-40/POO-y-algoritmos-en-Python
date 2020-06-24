@@ -64,3 +64,4 @@ def f(n):
 # O(n) + O(n * n) = O(n + n^2) = O(n^2)
 
 ```
+Como al Big O le interesa el termino más grande el Big O de este ejemplo es n^2
