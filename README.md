@@ -88,6 +88,8 @@ def fibonacci(n):
  
 # O(2^n)
 
+```
+
 ## Clases de complejidad algorítmica
  - O(1) , constante
  - O(n) , Lineal - crece de manera prporcional
