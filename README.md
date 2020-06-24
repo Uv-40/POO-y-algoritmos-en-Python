@@ -17,6 +17,8 @@ Este repositorio se crea como resumen del curso POO y algoritmos en Python dicta
  - Int. a la complejidad algoritmica
  - Conteo abstracto de la operación
  - Notación asintótica
+ - Clases de complejidad algorítmica
+ - Búsqueda lineal
 
 
 
@@ -99,3 +101,9 @@ def fibonacci(n):
  - O(2^n), exponencial
  
 En cuanto al tipo de algorítmos que son usables para la solución de problemas, se excluye el uso de los algoritmos que tiene  un crecimiento polinomial, exponencial y factoriales debido al tiempo y la cantidad de recursos que usarian para resolver los problemas y en algunos casos estas soluciones para base de datos tan amplias como las de Google tomaria demasiados años para utilizarlos debido a la cantidad de pasos que debe hacer el algoritmo.
+
+## Búsqueda lineal (algorítmos de búsqueda y ordenación)
+Este modulo busca que se apliquen los conceptos de complejidad algorítmica y que conozcan algunos algorítmos para poder resolver problemas
+
+> una habilidad de los computer science es reducir los problemas a problemas más pequeños y para los cuales ya existe una solución
+
