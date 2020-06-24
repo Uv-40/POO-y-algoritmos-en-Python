@@ -182,3 +182,20 @@ if __name__ == '__main__':
     print(f'El elemento {objetivo} {"esta" if encontrado else "no esta"} en la lista')
 
 ```
+
+Resultado de una ejecución:
+
+```python
+
+PS C:\Users\Usuario\Desktop\Programacion\Python\POO y algoritmos con Python> python Busqueda_binaria.py
+De que tamaño es la lista? 50
+Que numero quieres encontrar? 60
+buscando 60 entre 3 y 100
+buscando 60 entre 60 y 100
+buscando 60 entre 60 y 84
+buscando 60 entre 60 y 62
+buscando 60 entre 60 y 60
+[3, 4, 4, 5, 8, 9, 15, 19, 21, 21, 21, 22, 23, 27, 33, 35, 38, 40, 42, 45, 48, 50, 53, 54, 57, 58, 60, 60, 62, 62, 62, 64, 65, 65, 78, 81, 84, 85, 87, 88, 88, 90, 91, 92, 92, 94, 95, 97, 98, 100]
+El elemento 60 esta en la lista
+
+```
