@@ -231,7 +231,7 @@ if __name__ == '__main__':
 ```
 
 Y la complejidad algorítmica de este código sería:
-> exponencial Big O ( n ^ 2) dedifo a que se realiza un for loop para j que esta dento de un un for loop para i.
+> Polinominial es decir Big O ( n ^ 2), debido a que se realiza un for loop para j que esta dento de un un for loop para i.
 
 La ejecución de código queda como sigue:
 
