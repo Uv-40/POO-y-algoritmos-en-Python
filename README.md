@@ -136,5 +136,5 @@ if __name__ == '__main__':
     print(f'El elemento {objetivo} {"esta" if encontrado else "no esta"} en la lista')
 
 ```
-
+En cuanto a la complejidad algorítmica del programa anterior es de tipo linea como su nombre lo indica ya que solo genera un loop para el elemento en la lista y el tamaño depende del parametro de longitud que se le de a la lista
 
