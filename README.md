@@ -202,3 +202,33 @@ El elemento 60 esta en la lista
 
 ## Ordenamiento de burbuja (bubble sort)
 > "Es un algorítmo que recorre repetidamente una lista que necesita ordenarse. compara los elementos adyacentes y los intercambia si estan en el orden incorrecto. Este procedimiento se repite hasta que no se requieran más intercambios, lo que indica que la lista esta ordenada."
+
+Este algoritmo mediante codigo se vería de la siguiente forma:
+
+```python
+
+import random
+
+def ordenamiento_de_burbuja(lista):
+    n = len(lista)
+
+    for i in range(n):
+        for j in range(0, n - i - 1):
+
+            if lista[j] > lista[j + 1]:
+                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+    return lista
+
+if __name__ == '__main__':
+    tamaño_de_lista = int(input('De que tamaño será la lista? '))
+
+    lista = [random.randint(0,100) for i in range(tamaño_de_lista)]
+    print(lista)
+
+    Lista_ordenada = ordenamiento_de_burbuja(lista)
+    print(Lista_ordenada)
+
+```
+
+Y la complejidad algorítmica de este código sería:
+> exponencial Big O ( n ^ 2) dedifo a que se realiza un for loop para j que esta dento de un un for loop para i.
