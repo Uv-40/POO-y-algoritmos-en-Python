@@ -37,7 +37,7 @@ Esta notación lo que permite es evaluar la eficiencia del algritmo cuando sus v
   - O (N^2)
   - O (2N)
 
-### Ley de la suma ej:
+### Ley de la suma ej(1):
 
 ```python
 
@@ -50,4 +50,17 @@ def f(n):
    
 # O(n) + O(n) = O(n+n) = O(2n) = O(n)
 ```
-Esto quiere decir que el algoritmo de suma crece en O de n o en funcion de n. En la última igualdas se remplaza 2n por n debido a que en terminos de Big O solo no interesa el termino que mas crece.
+Esto quiere decir que el algoritmo de suma crece en O de n o en funcion de n. En la última igualdad se remplaza 2n por n, debido a que en terminos de Big O solo no interesa el termino que mas crece.
+
+### Ley de la suma ej(2):
+´´´
+
+def f(n):
+ for i in range(n):
+  print(i)
+ 
+ For i in range(n * n):
+  print(i)
+# O(n) + O(n * n) = O(n + n^2) = O(n^2)
+
+´´´
