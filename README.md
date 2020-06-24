@@ -108,7 +108,7 @@ Este modulo busca que se apliquen los conceptos de complejidad algorítmica y qu
 > una habilidad de los computer science es reducir los problemas a problemas más pequeños y para los cuales ya existe una solución.
 
 ### Búsqueda lineal
-Busca en todos los elementos de manera secuencial o de la manera en que esta ordenado
+Este es un algorítmo sencillo el cual busca si un elemento se encuentra en una lista o array y determina si este se encuentra o no.
 
 ```python
 
@@ -136,7 +136,9 @@ if __name__ == '__main__':
     print(f'El elemento {objetivo} {"esta" if encontrado else "no esta"} en la lista')
 
 ```
-En cuanto a la complejidad algorítmica del programa anterior es de tipo linea como su nombre lo indica ya que solo genera un loop para el elemento en la lista y el tamaño depende del parametro de longitud que se le de a la lista, Es decir:
+¿Cúal es la complejidad algorítmica del programa anterior?
+
+En cuanto a la complejidad algorítmica del programa anterior, este es de tipo linea lcomo su nombre lo indica, ya que solo genera un for loop para el elemento en la lista y el tamaño depende de la longitud que el usuario le de a la lista, Es decir:
  
  Complejidad: O(n)
 
