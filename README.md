@@ -65,3 +65,15 @@ def f(n):
 
 ```
 Como al Big O le interesa el termino más grande el Big O de este ejemplo es n^2
+
+#### Ley de la multiplicación
+```python
+
+def f(n):
+ for i in range(n):
+  for j in range(n):
+   print(i,j)
+   
+# O(n) * O(n) = O(n*n) = O(n^2)
+
+```
