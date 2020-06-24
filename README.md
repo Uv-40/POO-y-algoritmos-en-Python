@@ -201,4 +201,4 @@ El elemento 60 esta en la lista
 ```
 
 ## Ordenamiento de burbuja (bubble sort)
-> Es un algorítmo que recorre repetidamente una lista que necesita ordenarse. compara los elementos adyacentes y los intercambia si estan en el orden incorrecto. Este procedimiento se repite hasta que no se requieran más intercambios, lo que indica que la lista esta ordenada
+> "Es un algorítmo que recorre repetidamente una lista que necesita ordenarse. compara los elementos adyacentes y los intercambia si estan en el orden incorrecto. Este procedimiento se repite hasta que no se requieran más intercambios, lo que indica que la lista esta ordenada."
