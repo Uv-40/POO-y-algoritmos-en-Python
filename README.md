@@ -367,6 +367,41 @@ Para instalar alguna librerias se usa el siguiente comando:
 
 en este caso el comando queda: pip intall bokeh
 
+Para salir de ambiente virtual se ejecuta el comando: deactivate
+
+
+## Por qué graficar?
+
+Es importante para obtener una revisión visual de los resultados o datos con los que estamos trabajando.
+
+Graficar nos permite:
+- Reconocimiento de patrones.
+- Predicción de una serie.
+- El cerebro reconoce más rapido los datos en gráficas.
+- Simplifica la interpretación y conclusiones de los datos.
+- Simplifica la presentación de informes o resultados.
+
+## Graficado simple en Pyhton con la libreria Bokeh
+
+Bokeh nos permite:
+- Contruir gráficas complejas de manera rapida y con comandos simples
+- Permite exportar a varios formatos como: Html, notebooks, imagenes, etc
+- Bokeh se puede utilizar en el servidor con Flask y Django
+
+Otras librerias:
+- Matplotlib
+- Pylab
+
+
+
+
+
+
+
+
+
+
+
 
 
 
