@@ -341,6 +341,31 @@ PS C:\Users\Usuario\Desktop\Programacion\Python\POO y algoritmos con Python>
 
 ```
 
+## Ambientes virtuales
+
+Nos permite aislar los ambientes para poder instalar diversas verrsiones de paquwres. ya que con la intalacion original de python, la intalación es global.
+
+A partir de Pyhton 3 se incluye en la librería estándar en el modulo venv.
+
+Ningún ingeniero profesional de Python trabaja sin ellos.
+
+El uso en general es para poder instalar librerias y probarlas para algunos proyectos y que esta instalación no contamine la instalación inicial o global de Python.
+
+### Procedimiento para activar ambiente virtual en windows
+
+Ve a la carpeta donde tienes tu proyecto o a la carpeta donde quieras generar un ambiente virtual.
+
+1. En la terminal de windows o CMD usando el comando Cd - debes llegar a la ruta o carpeta en la que quieras instalar el ambiente.
+2. Ejecuta el comando: python -m venv env
+3. ejecuta el comando: env\scripts\activate.bat 
+
+### con el comando del punto 3 queda activado el ambiente virtual
+
+Para instalar alguna librerias se usa el siguiente comando:
+
+* pip install "nombre de la libreria a instalar"
+
+en este caso el comando queda: pip intall bokeh
 
 
 
