@@ -287,3 +287,51 @@ if __name__ == "__main__":
     lista_ordenada = ord_insercion(lista)
     print(lista_ordenada)
 ```
+
+## Ordenamiento por mezcla (merge sort)
+
+El ordenamiento por mezcla es un algoritmo de divide y conquistaras. primero divide una lista en partes iguales o hasta que quedan sublistas de 1 o 0 elementos. luego las recombina en forma ordenada.
+
+La aplicación del código queda como sigue:
+
+``` python
+import random
+
+def ord_insercion(lista):
+
+    for indice in range(1, len(lista)):
+        valor_actual = lista[indice]
+        posicion_actual = indice
+
+        while posicion_actual > 0 and lista[posicion_actual - 1] > valor_actual:
+            lista[posicion_actual] = lista[posicion_actual - 1]
+            posicion_actual -= 1
+        
+        lista[posicion_actual] = valor_actual
+        print(lista) # revisar los cambios
+
+    return lista
+
+if __name__ == "__main__":
+    tamaño_de_lista = int(input('De que tamaño será la lista? '))
+
+    lista = [random.randint(0, 100) for i in range(tamaño_de_lista)]
+
+    lista_ordenada = ord_insercion(lista)
+    print(lista_ordenada)
+ 
+ ```
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
