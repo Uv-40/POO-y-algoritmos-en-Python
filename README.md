@@ -322,8 +322,24 @@ if __name__ == "__main__":
  
  ```
  
+Los resultados de la consola, de la ejecución del código es la siguiente:
 
+``` python
+PS C:\Users\Usuario\Desktop\Programacion\Python\POO y algoritmos con Python> python ordenamiento_insercion.py
+De que tamaño será la lista? 10
+[46, 83, 16, 72, 89, 93, 56, 32, 24, 72]
+[16, 46, 83, 72, 89, 93, 56, 32, 24, 72]
+[16, 46, 72, 83, 89, 93, 56, 32, 24, 72]
+[16, 46, 72, 83, 89, 93, 56, 32, 24, 72]
+[16, 46, 72, 83, 89, 93, 56, 32, 24, 72]
+[16, 46, 56, 72, 83, 89, 93, 32, 24, 72]
+[16, 32, 46, 56, 72, 83, 89, 93, 24, 72]
+[16, 24, 32, 46, 56, 72, 83, 89, 93, 72]
+[16, 24, 32, 46, 56, 72, 72, 83, 89, 93]
+[16, 24, 32, 46, 56, 72, 72, 83, 89, 93]
+PS C:\Users\Usuario\Desktop\Programacion\Python\POO y algoritmos con Python> 
 
+```
 
 
 
