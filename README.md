@@ -392,9 +392,14 @@ Otras librerias:
 - Matplotlib
 - Pylab
 
+## Introducción a la optimización
+
+- El concepto de optimizar permite resolver muchos problemas de manera computacional
+- Mediante algoritmos de optimización podemos encontrar (máximos y minimos) ej: el valor más alto, el vlor más bajo, el valor más rápido, el valor más lento, el que causa más intereses, el causa menos intereses.
+- La optimización nos permite resolver varios problemas con parametros limitantes que debemos respetar.
 
 
-
+### El problema del morral
 
 
 
